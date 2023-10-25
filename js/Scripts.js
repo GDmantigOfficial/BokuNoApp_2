@@ -21,7 +21,7 @@ let Trajes = {
     "Todoroki": "Civil/Casual/Prototipo/Combate/Shadow",
     "Mirko": "Casual/Estudiante/Combate",
     "Uravity": "Casual/Combate/ZeroGravity",
-    "Toga": "Casual/Villana/Combate",
+    "Toga": "Casual/Villana/Invernal",
     "Shigaraki": "Casual/Villano/StarFall/Despertar",
     "Dabi": "Casual/Combate/Villano/DeathFire",
     "EraserHead": "Estudiante/Casual/Combate",
