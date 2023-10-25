@@ -1,5 +1,5 @@
 self.addEventListener('install', e=>{
-    const recursos = caches.open("Boveda01").then(cache=>{
+    const recursos = caches.open("BovedaPrincipal").then(cache=>{
         cache.add('/'),
         cache.add('index.html'),
         cache.add('Error.html'),
@@ -17,7 +17,7 @@ self.addEventListener('install', e=>{
         cache.add('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css');
     });
     e.waitUntil(recursos);
-    const recursos2 = caches.open("Boveda02").then(cache=>{
+    const recursos2 = caches.open("BovedaAuxiliar").then(cache=>{
         cache.add('/'),
         cache.add('Resources/404Image.png'),
         cache.add('Resources/bg.jpg'),
@@ -85,14 +85,14 @@ self.addEventListener('install', e=>{
 function print(string){
     console.log(string);
 }
-let BovedaAUsar = "Boveda01";
+let BovedaAUsar = "BovedaPrincipal";
 let aux = "";
 self.addEventListener('fetch', e => {
     const respuesta = fetch(e.request).then(newResp => {
         aux = ((newResp.url).split('/'))[((newResp.url).split('/')).length - 1];
         aux = (aux.split('.'))[1];
         console.log(aux);
-        caches.open("Boveda02").then(cache => {
+        caches.open("BovedaAuxiliar").then(cache => {
             cache.put(e.request, newResp)
         });
         return newResp.clone();
