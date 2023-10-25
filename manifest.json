@@ -1,0 +1,51 @@
+{
+    "short_name": "BokuNoApp",
+    "name": "Aplicacion no oficial para ver personajes relevantes del Anime Boku No Hero: Academia", 
+    "start_url": "index.html",
+    "background_color": "#bbbbbb", 
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait", 
+    "icons":[
+        {
+            "src": "Resources/Iconos03/Icono32.png", 
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos03/Icono48.png", 
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos03/Icono64.png", 
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos03/Icono72.png", 
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos03/Icono96.png", 
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos03/Icono128.png", 
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos03/Icono256.png", 
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "Resources/Iconos03/Icono512.png", 
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

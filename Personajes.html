@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Para el manifest -->
+    <meta name="theme_color" content="ffffff">
+    <title>BokuNoApp</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="Resources/Iconos03/IconoPage.ico" />
+    <!-- CSS only -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+<!-- JavaScript Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <script src="js/js/bootstrap.js"></script>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body class="body">
+    <center>
+        <section>
+            <div class="container Custom02 m-1">
+                <div class="row justify-content-center">
+                    <div class="column col-10">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default" for="Personaje">Selecciona un personaje</span>
+                            <select name="Personaje" id="Personaje" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" >
+                                <option value="Izuku">Midoriya</option>
+                                <option value="Bakugo">Bakugo</option>
+                                <option value="Todoroki">Todoroki</option>
+                                <option value="Mirko">Mirko</option>
+                                <option value="Uravity">Uravity</option>
+                                <option value="Toga">Toga</option>
+                                <option value="Shigaraki">Shigaraki</option>
+                                <option value="Dabi">Dabi</option>
+                                <option value="EraserHead">Eraser Head</option>
+                                <option value="AllMight">All Might</option>
+                            </select>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default" for="Traje">Selecciona un Traje</span>
+                            <select name="Traje" id="Traje" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" >
+                            </select>
+                        </div>
+                        <p class="fs-3 fw-bolder text-white" id="Name">Not Selected</p>
+                        <div class="input-group mb-3">
+                            <img style="width: 200px; max-height: 1200px;" src="Resources/Default.jpg" alt="Imagen" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="Imagen">
+                        </div>
+                        <a href="index.html" class="btn btn-danger p-2 text-decoration-none text-white fs-6 fwe-bold">Volver atras</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <img src="Resources/Default.jpg" alt="no" id="Display">
+    </center>
+</body>
+<script src="app.js"></script>
+<script src="js/Scripts.js"></script>
+</html>

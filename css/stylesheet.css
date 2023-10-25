@@ -1,0 +1,37 @@
+.body2{
+    background-image: url(../Resources/bg3.png);
+    /* background-color: rgb(173, 173, 173); */
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    padding: 15px;
+}
+.body{
+    background-image: url(../Resources/bg4.png);
+    /* background-color: rgb(173, 173, 173); */
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    padding: 15px;
+}
+.Principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Custom01{
+    background-color: rgba(122, 183, 190, 0.612);
+    border: solid white 5px;
+    border-radius: 5px;
+    padding: 25px;
+}
+.Custom02{
+    background-color: rgba(161, 194, 232, 0.569);
+    border: solid white 5px;
+    border-radius: 5px;
+    padding: 25px;
+}
+.Custom02{
+    /* border: double black 5px;
+    border-radius: 5px; */
+    padding: 25px;
+    margin-top: 50px;
+    padding: 25px;
+}
