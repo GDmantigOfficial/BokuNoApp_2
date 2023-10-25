@@ -31,7 +31,7 @@ Traje.addEventListener("change", () => {
     image.src = `Resources/Default.jpg`;
     Nombre.innerText = `${Nombres[Personaje.value]}`;
     if (Traje.value != ""){
-        image.src = `Resources/${Personaje.value}/${Traje.value}.PNG`;
+        image.src = `Resources/${Personaje.value}/${Traje.value}.png`;
         Nombre.innerText = `${Nombres[Personaje.value]} - Traje ${Traje.value}`;
         if(Nombres[Personaje.value] == undefined){
             image.src = `Resources/Default.jpg`;
