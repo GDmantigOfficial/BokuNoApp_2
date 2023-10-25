@@ -47,6 +47,6 @@ let Frase = {
     "AllMight": `"Todo está bien, ¿Por qué? ¡Porque yo estoy aquí!"`
 };
 Name.innerText = Nombres[Personaje];
-image.src = `Resources/${Personaje}/${Traje}.PNG`;
+image.src = `Resources/${Personaje}/${Traje}.png`;
 Desc.innerText = Descripcion[Personaje];
 phrase.innerText = Frase[Personaje];
